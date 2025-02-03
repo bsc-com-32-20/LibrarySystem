@@ -14,9 +14,8 @@ public class Library {
                         2. Remove a book
                         3. Display all books
                         4. Add a borrower
-                        5. Remove a borrower
-                        6. Display all borrowers
-                        7. Exit
+                        5. Display all borrowers
+                        6. Exit
                         """);
                 Scanner sc = new Scanner(System.in);
                 try {
@@ -32,8 +31,6 @@ public class Library {
                     } else if (choice == 5) {
 
                     } else if (choice == 6) {
-
-                    } else if (choice == 7) {
                         isInSystem = false;
                         System.out.println("Goodbye!");
                         continue;
